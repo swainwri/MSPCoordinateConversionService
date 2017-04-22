@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E3792D85183835C40006E2D0 /* CoordinateConversionService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486F11831CD0C00A68C03 /* CoordinateConversionService.cpp */; };
-		E3792DD4183836AA0006E2D0 /* libMSPdtcc_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3792DD3183836AA0006E2D0 /* libMSPdtcc_static.a */; };
 		E37F4FBB19BD906A0049CCEE /* libMSPdtcc_static_iOS7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E37F4FB819BD8F7B0049CCEE /* libMSPdtcc_static_iOS7.a */; };
 		E3E2C0AF1DA80EA4009B10D1 /* libMSPCoordinateConversionService_static_iOS7.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = E3EAD68C184CB48D00D9206C /* libMSPCoordinateConversionService_static_iOS7.a */; };
 		E3EAD739184CB6BF00D9206C /* CoordinateConversionService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486F11831CD0C00A68C03 /* CoordinateConversionService.cpp */; };
@@ -17,7 +16,6 @@
 		E3F486F41831CD0C00A68C03 /* CoordinateConversionService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486F11831CD0C00A68C03 /* CoordinateConversionService.cpp */; };
 		E3F486F51831CD0C00A68C03 /* CoordinateConversionService.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486F21831CD0C00A68C03 /* CoordinateConversionService.h */; };
 		E3F486F61831CD0C00A68C03 /* CoordinateConversionServiceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486F31831CD0C00A68C03 /* CoordinateConversionServiceAPI.h */; };
-		E3F486F81831CD5900A68C03 /* libMSPdtcc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F486F71831CD5900A68C03 /* libMSPdtcc.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,15 +57,12 @@
 
 /* Begin PBXFileReference section */
 		E3792D7F1838356D0006E2D0 /* libMSPCoordinateConversionService_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSPCoordinateConversionService_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3792DD3183836AA0006E2D0 /* libMSPdtcc_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMSPdtcc_static.a; path = "../../../Library/Developer/Xcode/DerivedData/A_Mac_Programming-godswkkxtkxtokbmrrefpkeynsrg/Build/Products/Debug/libMSPdtcc_static.a"; sourceTree = "<group>"; };
 		E37F4FAD19BD8F7B0049CCEE /* MSPdtcc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MSPdtcc.xcodeproj; path = "/Users/stevewainwright/Documents/A Mac Programming/GeoDrillv7/../MSPdtcc/MSPdtcc.xcodeproj"; sourceTree = "<absolute>"; };
-		E3E91517195BC5DE00189BB2 /* libMSPdtcc_static_iOS7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMSPdtcc_static_iOS7.a; path = "../../../Library/Developer/Xcode/DerivedData/DDrill_Development-gqbdbcysfmyirqckdibyonrzrdwy/Build/Products/Debug-iphoneos/libMSPdtcc_static_iOS7.a"; sourceTree = "<group>"; };
 		E3EAD68C184CB48D00D9206C /* libMSPCoordinateConversionService_static_iOS7.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSPCoordinateConversionService_static_iOS7.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F483F61831CB5300A68C03 /* libMSPCoordinateConversionService.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMSPCoordinateConversionService.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F486F11831CD0C00A68C03 /* CoordinateConversionService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = CoordinateConversionService.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		E3F486F21831CD0C00A68C03 /* CoordinateConversionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateConversionService.h; sourceTree = "<group>"; };
 		E3F486F31831CD0C00A68C03 /* CoordinateConversionServiceAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateConversionServiceAPI.h; sourceTree = "<group>"; };
-		E3F486F71831CD5900A68C03 /* libMSPdtcc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMSPdtcc.dylib; path = "../../../Library/Developer/Xcode/DerivedData/A_Mac_Programming-godswkkxtkxtokbmrrefpkeynsrg/Build/Products/Debug/libMSPdtcc.dylib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3792DD4183836AA0006E2D0 /* libMSPdtcc_static.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F486F81831CD5900A68C03 /* libMSPdtcc.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,9 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				E37F4FAD19BD8F7B0049CCEE /* MSPdtcc.xcodeproj */,
-				E3E91517195BC5DE00189BB2 /* libMSPdtcc_static_iOS7.a */,
-				E3792DD3183836AA0006E2D0 /* libMSPdtcc_static.a */,
-				E3F486F71831CD5900A68C03 /* libMSPdtcc.dylib */,
 				E3F486F01831CD0C00A68C03 /* CoordinateConversion */,
 				E3F483F71831CB5300A68C03 /* Products */,
 			);
