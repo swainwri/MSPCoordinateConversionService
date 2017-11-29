@@ -491,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				EXECUTABLE_PREFIX = lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
